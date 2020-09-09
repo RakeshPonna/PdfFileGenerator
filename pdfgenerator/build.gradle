@@ -1,8 +1,16 @@
+apply plugin: 'com.novoda.bintray-release'
 apply plugin: 'com.android.library'
 apply plugin: 'kotlin-android'
 apply plugin: 'kotlin-kapt'
 apply plugin: 'kotlin-android-extensions'
-
+publish {
+    userOrg = 'rakeshponna'
+    groupId = 'com.pdf.pdf'
+    artifactId = 'pdfgenerators'
+    publishVersion = '1.0'
+    desc = 'This is a pdf generator library'
+    website = 'https://github.com/RakeshPonna/PdfFileGenerator'
+}
 android {
     compileSdkVersion 29
     defaultConfig {
