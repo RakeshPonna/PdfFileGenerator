@@ -3,9 +3,7 @@ apply plugin: 'kotlin-android'
 apply plugin: 'kotlin-kapt'
 apply plugin: 'kotlin-android-extensions'
 
-group = 'com.pdf.pdfgenrator'
-archivesBaseName = 'pdfgenrator-pdf'
-version = '1.0'
+
 android {
     compileSdkVersion 29
     defaultConfig {
