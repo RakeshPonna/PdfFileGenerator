@@ -1,4 +1,4 @@
-package com.uttampanchasara.pdf
+package com.pdf.pdf
 
 import android.os.Bundle
 import android.os.Environment
@@ -6,7 +6,7 @@ import android.print.PrintAttributes
 import android.support.v7.app.AppCompatActivity
 import android.util.Log
 import android.widget.Toast
-import com.uttampanchasara.pdfgenerator.CreatePdf
+import com.pdf.pdfgenerator.CreatePdf
 import kotlinx.android.synthetic.main.activity_main.*
 
 class MainActivity : AppCompatActivity(), CreatePdf.PdfCallbackListener {

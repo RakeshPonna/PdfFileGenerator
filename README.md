@@ -8,7 +8,7 @@ PDF Generator library, easy way to create PDF from String Content or Any HTML Co
 
 ```gradle
 dependencies {
-     implementation 'com.uttampanchasara.pdfgenerator:pdfgenerator:1.3'
+     implementation 'pdf.pdfgenerator:pdfgenerator:1.3'
 }
 ```
 
